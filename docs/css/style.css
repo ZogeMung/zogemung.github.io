@@ -16,38 +16,38 @@ body {
     min-height: 100vh;
 }
 
-    .container .box {
-        width: 700px;
-        height: 600px;
-        background-color: rgba(255,255,255,.4);
-        border-radius: 10px;
-    }
+.container .box {
+    width: 700px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 10px;
+}
 
-        .container .box h1 {
-            font-size: 60px;
-            text-align: center;
-        }
+.container .box h1 {
+    font-size: 60px;
+    text-align: center;
+}
 
-        .container .box p {
-            list-style: none;
-            font-size: 24px;
-            margin: 10px 100px;
-            padding: 10px;
-            border-radius: 5px;
-            transition: .2s linear;
-        }
+.container .box p {
+    list-style: none;
+    font-size: 24px;
+    margin: 10px 100px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .2s linear;
+}
 
-        .container .box a {
-            text-decoration: none;
-            color: black;
-        }
+.container .box a {
+    text-decoration: none;
+    color: black;
+}
 
-        .container .box .recommend::after {
-            content: ' recommend!!!';
-            font-size: 16px;
-            color: red;
-        }
+.container .box .recommend::after {
+    content: ' recommend!!!';
+    font-size: 16px;
+    color: red;
+}
 
-        .container .box p:hover {
-            background-color: lightcyan;
-        }
+.container .box p:hover {
+    background-color: lightcyan;
+}
